@@ -42,6 +42,7 @@ Run: mpirun -np <num_proc> ./resize Example.png <factor>
 
 Image portions for each color channel are distributed among processes using MPI, and iterations in the imageInterpolate function are collapsed and evenly distributed among threads.
 
+Best speedup : Pthread and OpenMP
 
 
 
